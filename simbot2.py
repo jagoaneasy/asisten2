@@ -241,12 +241,15 @@ async def send_welcome1(event):
     #print(event.message)
 
 async def main():
-    await asyncio.gather(
-        await bot.run_until_disconnected(),
-        #await bot1.run_until_disconnected(),
-        print("ya")
-        #work(TelegramClient('user2', api_id, api_hash)),
+    async with TelegramClient(StringSession(stasisten),10092191,"1d3cc411270e52f1168d3c2fada92bcd") as asisten1:
+        await asisten1.send_message('me', 'Hello, myself!')
+        await client.run_until_disconnected()
+        
     )
+try:await main()
+
+# Otherwise
+except:asyncio.run(main())
 
 #@asisten1.on(events.NewMessage(chats=(gw,aq)))#from_users=lambda e:if e==aq or e==gw))
 async def keaq(event):

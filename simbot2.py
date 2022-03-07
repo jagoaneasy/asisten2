@@ -243,7 +243,7 @@ async def send_welcome1(event):
 async def main():
     async with TelegramClient(StringSession(stasisten),10092191,"1d3cc411270e52f1168d3c2fada92bcd") as asisten1:
         await asisten1.send_message('me', 'Hello, myself!')
-        await client.run_until_disconnected()
+        await asisten1.run_until_disconnected()
         
     
 

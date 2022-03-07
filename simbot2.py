@@ -19,7 +19,7 @@ gw="grungeisnotdead"
 intiid=[667384754,675854260,5035559152]
 timebisu=0
 akunsudah=[]
-
+stopin=True
 ditgl=time.time()//(3600*24)
 Ayu=b'Ayu \xf0\x9f\x92\x8b'
 ayu=Ayu.decode()
@@ -379,12 +379,19 @@ async def jawabasisten(event):
         #await bot.disconnect()
         #await bot1.disconnect()
         #exit()
-while True:
-    #try:
-        asisten1.connect()
+while stopin:
+    try:
+        try:
+            asisten1.connect()
+        except:
+            try:
+                await asisten1.connect()
+            except:
+                print("error kabeh")
+                stopin=False
         print("MuLAI")
         asisten1.run_until_disconnected()
-    #except:
+    except:
         exit()
         time.sleep(60)
         print("mulaijaringan")

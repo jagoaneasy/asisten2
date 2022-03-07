@@ -245,7 +245,7 @@ async def main():
         await asisten1.send_message('me', 'Hello, myself!')
         await client.run_until_disconnected()
         
-    )
+    
 try:await main()
 
 # Otherwise

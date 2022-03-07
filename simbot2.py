@@ -4,11 +4,9 @@ from telethon.tl import functions,types
 # Initialize bot and... just the bot!
 import asyncio,base64,time
 import random
-#bot = TelegramClient('bot', 11716851, '9cf7b885f6a39ba1acec9572c65ca810').start(bot_token='5164503867:AAGI0ZG9DfYrginWMozPNa8_T_93uNt-c7E')
+#bot1 dan bot2
 
-#bot1 = TelegramClient('bot1', 11716851, '9cf7b885f6a39ba1acec9572c65ca810').start(bot_token='5292078688:AAEiQ3-7hkqnheUaE7qOaDQbZaeo36Osnkg')
-
-stasisten='1BVtsOGgBuwOPDg-dHXNIUnvKclxBNJj9FROk6jZK3UbJeH54sihBfrY4D7kRyNk9qffE5_Zi9HTEQnsBD3hgkaqiBkfo9Mugo6xtswJINmOAcmMUiiwavIEd9x3X6uRog3sbdll9Zm4AJ-5jHWRCc-leJWM6YXotDusd7d3QVna36SW0WOXtg9kDgzH8hGEzcHh9c1itFPOSNIQ6BztakXLTynCZqzVS6PejfKBT7mFLDppJJXyAiKbG_pDoXDW-DsNs39WLwzT8m3_Qj72wTx473Cj8eD8SIt6Id9V5jb8RMVkZAtP9jmaO1qYUi-ld9GFzHIf9ugt2eg22vsx9vGiYmpcoYYA='
+stasisten='kRyNk9qffE5_Zi9HTEQnsBD3hgkaqiBkfo9Mugo6xtswJINmOAcmMUiiwavIEd9x3X6uRog3sbdll9Zm4AJ-5jHWRCc-leJWM6YXotDusd7d3QVna36SW0WOXtg9kDgzH8hGEzcHh9c1itFPOSNIQ6BztakXLTynCZqzVS6PejfKBT7mFLDppJJXyAiKbG_pDoXDW-DsNs39WLwzT8m3_Qj72wTx473Cj8eD8SIt6Id9V5jb8RMVkZAtP9jmaO1qYUi-ld9GFzHIf9ugt2eg22vsx9vGiYmpcoYYA='
 r=770
 
 #import lojin

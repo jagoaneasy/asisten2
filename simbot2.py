@@ -11,8 +11,8 @@ import random
 stasisten='1BVtsOGgBuwOPDg-dHXNIUnvKclxBNJj9FROk6jZK3UbJeH54sihBfrY4D7kRyNk9qffE5_Zi9HTEQnsBD3hgkaqiBkfo9Mugo6xtswJINmOAcmMUiiwavIEd9x3X6uRog3sbdll9Zm4AJ-5jHWRCc-leJWM6YXotDusd7d3QVna36SW0WOXtg9kDgzH8hGEzcHh9c1itFPOSNIQ6BztakXLTynCZqzVS6PejfKBT7mFLDppJJXyAiKbG_pDoXDW-DsNs39WLwzT8m3_Qj72wTx473Cj8eD8SIt6Id9V5jb8RMVkZAtP9jmaO1qYUi-ld9GFzHIf9ugt2eg22vsx9vGiYmpcoYYA='
 r=770
 
-import lojin
-asisten1=lojin.login1("bks1")
+#import lojin
+#asisten1=lojin.login1("bks1")
 asisten1=TelegramClient(StringSession(stasisten),10092191,"1d3cc411270e52f1168d3c2fada92bcd")
 aq="batman800"
 gw="grungeisnotdead"

@@ -246,10 +246,10 @@ async def main():
         await client.run_until_disconnected()
         
     
-try:await main()
+
 
 # Otherwise
-except:asyncio.run(main())
+asyncio.run(main())
 
 #@asisten1.on(events.NewMessage(chats=(gw,aq)))#from_users=lambda e:if e==aq or e==gw))
 async def keaq(event):

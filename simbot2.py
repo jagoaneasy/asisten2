@@ -384,13 +384,10 @@ while stopin:
         try:
             asisten1.connect()
         except:
-            try:
-                await asisten1.connect()
-            except:
-                print("error kabeh")
-                stopin=False
+            
+            
+            asisten1.run_until_disconnected()
         print("MuLAI")
-        asisten1.run_until_disconnected()
     except:
         exit()
         time.sleep(60)

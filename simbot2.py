@@ -384,9 +384,9 @@ while stopin:
         try:
             asisten1.connect()
         except:
+            pass
             
-            
-            asisten1.run_until_disconnected()
+        asisten1.run_until_disconnected()
         print("MuLAI")
     except:
         exit()

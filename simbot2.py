@@ -3,18 +3,21 @@ from telethon.sessions import StringSession
 from telethon.tl import functions,types
 # Initialize bot and... just the bot!
 import asyncio,base64,time
-import random
+import random,os
 #bot1 dan bot2
 
-stasisten='kRyNk9qffE5_Zi9HTEQnsBD3hgkaqiBkfo9Mugo6xtswJINmOAcmMUiiwavIEd9x3X6uRog3sbdll9Zm4AJ-5jHWRCc-leJWM6YXotDusd7d3QVna36SW0WOXtg9kDgzH8hGEzcHh9c1itFPOSNIQ6BztakXLTynCZqzVS6PejfKBT7mFLDppJJXyAiKbG_pDoXDW-DsNs39WLwzT8m3_Qj72wTx473Cj8eD8SIt6Id9V5jb8RMVkZAtP9jmaO1qYUi-ld9GFzHIf9ugt2eg22vsx9vGiYmpcoYYA='
-r=770
+APP_as = int(os.environ.get("APP_asisten"))
+API_as = os.environ.get("API_asisten")
+
+
+stasisten=os.environ.get("STR_asisten")
 
 #import lojin
 #asisten1=lojin.login1("bks1")
-asisten1=TelegramClient(StringSession(stasisten),10092191,"1d3cc411270e52f1168d3c2fada92bcd")
-aq="batman800"
-gw="grungeisnotdead"
-intiid=[667384754,675854260,5035559152]
+asisten1=TelegramClient(StringSession(stasisten),APP_as,API_as)
+
+
+
 timebisu=0
 akunsudah=[]
 stopin=True

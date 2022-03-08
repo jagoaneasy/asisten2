@@ -5,3 +5,33 @@
   "logo": "http://pngimg.com/uploads/paper_plane/paper_plane_PNG79.png",
   "keywords": ["@nokos_easy"]
 }
+{
+    "name": "Asisten Ayu",
+    "description": "Asisten Pribadi Nokos.",
+    "logo": "http://pngimg.com/uploads/paper_plane/paper_plane_PNG79.png",
+    "keywords": [
+        "@nokos_easy"
+    ],
+    "repository": "https://github.com/jagoaneasy/asisten2",
+    "website": "t.me/nokos_easy",
+    "success_url": "https://t.me/nokos_easy",
+    "env": {
+        "API_asisten": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "APP_asisten": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "TOKEN_asisten": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

@@ -11,15 +11,15 @@
     "success_url": "https://t.me/nokos_easy",
     "env": {
         "API_asisten": {
-            "description": "You API HASH from my.telegram.org",
+            "description": "APInya asisten",
             "value": ""
         },
         "APP_asisten": {
-            "description": "You API ID from my.telegram.org",
+            "description": "IDnya asisten",
             "value": ""
         },
-        "TOKEN_asisten": {
-            "description": "Bot token, get it from @BotFather.",
+        "STR_asisten": {
+            "description": "string asisten",
             "value": ""
         }
     },

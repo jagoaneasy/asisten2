@@ -21,6 +21,18 @@
         "STR_asisten": {
             "description": "string asisten",
             "value": ""
+        },
+        "MINangkaGrupsemua": {
+            "description": "akun GC",
+            "value": ""
+        },
+        "MINackup": {
+            "description": "akun Backup",
+            "value": ""
+        },
+        "BATMAN": {
+            "description": "Batman",
+            "value": ""
         }
     },
     "buildpacks": [
